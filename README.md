@@ -93,3 +93,10 @@ Users can enter an English comment and receive:
 The application will open a local Gradio interface in the browser.
 
 **Note:** The trained model files are not included in this public repository. The demonstration currently supports English comments only.
+## 10. Demonstration Results
+
+### Normal Comment
+![Normal Comment](results/normal_comment_demo.png)
+
+### Toxic Comment
+![Toxic Comment](results/toxic_comment_demo.png)
