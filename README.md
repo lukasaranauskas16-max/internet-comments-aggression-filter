@@ -96,7 +96,7 @@ The application will open a local Gradio interface in the browser.
 ## 10. Demonstration Results
 
 ### Normal Comment
-![Normal Comment](results/normal_comment_demo.png)
+![Normal Comment](results/normal_comment_demo(1).png)
 
 ### Toxic Comment
-![Toxic Comment](results/toxic_comment_demo.png)
+![Toxic Comment](results/toxic_comment_demo(1).png)
