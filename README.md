@@ -63,3 +63,33 @@ DistilBERT achieved the best overall F1-score.
 ## 8. Limitations
 
 The dataset contains English comments. Therefore, the current model is designed for English-language toxic comment detection and is not yet validated for Lithuanian comments.
+
+## 9. Interactive Demonstration
+
+The project includes a Gradio-based interface for testing the trained DistilBERT model.
+
+Users can enter an English comment and receive:
+- Normal comment probability
+- Toxic comment probability
+
+### Requirements
+
+- Python 3.10 or newer
+- Required libraries from requirements.txt
+- Trained DistilBERT model files in the `distilbert_model/` directory
+
+### How to Run
+
+1. Install dependencies:
+
+   pip install -r requirements.txt
+
+2. Place the trained model folder named `distilbert_model` in the project root directory.
+
+3. Start the application:
+
+   python code/demo_gradio.py
+
+The application will open a local Gradio interface in the browser.
+
+**Note:** The trained model files are not included in this public repository. The demonstration currently supports English comments only.
