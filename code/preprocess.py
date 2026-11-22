@@ -45,6 +45,6 @@ def preprocess_dataset(input_file, output_file):
 
 if __name__ == "__main__":
     preprocess_dataset(
-        "data/comments.csv",
+        "data/train.csv",
         "data/cleaned_comments.csv"
     )
